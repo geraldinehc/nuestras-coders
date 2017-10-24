@@ -35,7 +35,7 @@ div {
 
 span {
   /*outline: 1px solid blue;*/
-  color: #fff;
+  color: white;
   font-weight: 200px;
   font-size: 12px;
   position: absolute;
@@ -48,6 +48,7 @@ figure img {
   height: 150px;
   float: left;
   margin: 5px;
+
 }
 figure {
   width: 550px;
