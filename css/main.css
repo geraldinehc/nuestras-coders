@@ -1,20 +1,58 @@
-* {
+body {
   box-sizing: border-box;
-  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto Slab', serif;
+}
+header {
+  /*outline: 1px solid green;*/
+  padding-top: 25px;
+  padding-left: 40px;
+  margin-bottom: 30px
 }
 h1 {
-  outline: 1px solid red;
-  text-align: left;
+  /*outline: 1px solid pink;*/
+  /*text-align: left;*/
+  margin-bottom: 3px;
 }
 
 .caja {
-  width: 180px;
-  border: 1px solid blue;
-  padding: 15px;
-
-  float: left;
-  margin-left: 8px;
+  width: 120px;
+  height: 5px;
+  /*border-color: red;*/
+  background: #000;
+  /*padding: 15px;*/
+  margin-top: 5px;
 }
-img {
-  max-width: 100%;
+
+div {
+  /*outline: 1px solid yellow;*/
+  width: 180px;
+  height: 180px;
+  display: inline-block;
+  position: relative;
+}
+
+span {
+  /*outline: 1px solid blue;*/
+  color: #fff;
+  font-weight: 200px;
+  font-size: 12px;
+  position: absolute;
+  right: 20%;
+  bottom: 20%;
+}
+
+figure img {
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin: 5px;
+}
+figure {
+  width: 550px;
+  padding: 0;
+  overflow: auto;
+  margin-top: 15px;
+
 }
